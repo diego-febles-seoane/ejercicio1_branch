@@ -37,3 +37,35 @@ git commit -m "Se incluye el Ejercicio1.java"
  create mode 100644 Ejercicio1.java
  rewrite README.md (100%)
  ```
+
+ # ejercicio2_branch
+
+ ## Se crea la rama
+
+```code
+git checkout -b ejercicio2-branch
+Cambiado a nueva rama 'ejercicio2-branch'
+```
+
+## Se crea el .java
+
+```code
+     public class Ejercicio2 {
+     public static void main(String[] args) {
+         System.out.println("Ejercicio 1 realizado.");
+     }
+ }    
+```
+
+## Se realiza el push
+
+```code
+git push origin ejercicio2-branch
+Total 0 (delta 0), reusados 0 (delta 0), pack-reusados 0
+remote: 
+remote: Create a pull request for 'ejercicio2-branch' on GitHub by visiting:
+remote:      https://github.com/diego-febles-seoane/ejercicio1_branch/pull/new/ejercicio2-branch
+remote: 
+To https://github.com/diego-febles-seoane/ejercicio1_branch
+ * [new branch]      ejercicio2-branch -> ejercicio2-branch
+```
