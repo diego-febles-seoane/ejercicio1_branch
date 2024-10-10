@@ -69,3 +69,34 @@ remote:
 To https://github.com/diego-febles-seoane/ejercicio1_branch
  * [new branch]      ejercicio2-branch -> ejercicio2-branch
 ```
+
+# ejercicio3_branch
+
+## Se crea la rama
+
+```code
+git checkout -b ejercicio3-branch
+Cambiado a nueva rama 'ejercicio3-branch'
+```
+
+## Se crea el fichero .java
+
+```code
+     public class Ejercicio1 {
+     public static void main(String[] args) {
+         System.out.println("Ejercicio 1 realizado.");
+     }
+ }    
+```
+
+## Se hace el push 
+
+```code
+Total 0 (delta 0), reusados 0 (delta 0), pack-reusados 0
+remote: 
+remote: Create a pull request for 'ejercicio3-branch' on GitHub by visiting:
+remote:      https://github.com/diego-febles-seoane/ejercicio1_branch/pull/new/ejercicio3-branch
+remote: 
+To https://github.com/diego-febles-seoane/ejercicio1_branch
+ * [new branch]      ejercicio3-branch -> ejercicio3-branch
+```
