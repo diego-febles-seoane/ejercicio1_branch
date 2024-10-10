@@ -28,4 +28,12 @@ Cambiado a nueva rama 'ejercicio1-branch'
  }    
 ```
 
-##
+## Se realiza el commit
+
+```code
+git commit -m "Se incluye el Ejercicio1.java"
+[main 9d5fc7d] Se incluye el Ejercicio1.java
+ 2 files changed, 36 insertions(+), 1 deletion(-)
+ create mode 100644 Ejercicio1.java
+ rewrite README.md (100%)
+ ```
